@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ClienteMqtt-9B0E449B-AAEA-4038-B666-825F83C9CF22</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.13" />
+     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.11" />
+    <PackageReference Include="MQTTnet" Version="3.0.13" />
+  </ItemGroup>
+</Project>
